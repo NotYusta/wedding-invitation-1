@@ -8,5 +8,6 @@ export default defineConfig({
     host: true,
    allowedHosts: undefined,
   },
+  base: "/wedding-invitation-1",
   plugins: [react(),  tailwindcss(),],
 })
