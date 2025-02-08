@@ -35,6 +35,7 @@ function App() {
     });
   }, []);
 
+  const urlBase = "/wedding-invitation-1"
   return (
     <>
 
@@ -43,7 +44,7 @@ function App() {
 
         <Routes>
           <Route path="*" Component={NotFoundPage} />
-          <Route path="/" Component={HomePage} />
+          <Route path={urlBase} Component={HomePage} />
         </Routes>
       </BrowserRouter>
     </>
