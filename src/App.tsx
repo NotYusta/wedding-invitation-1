@@ -6,6 +6,7 @@ import { initParticlesEngine } from '@tsparticles/react';
 import { loadSlim } from "@tsparticles/slim";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { URLConstants } from './constants/url';
 
 
 function App() {
@@ -35,7 +36,7 @@ function App() {
     });
   }, []);
 
-  const urlBase = "/wedding-invitation-1"
+
   return (
     <>
 
@@ -44,7 +45,7 @@ function App() {
 
         <Routes>
           <Route path="*" Component={NotFoundPage} />
-          <Route path={urlBase} Component={HomePage} />
+          <Route path={URLConstants.BASE} Component={HomePage} />
         </Routes>
       </BrowserRouter>
     </>
