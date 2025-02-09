@@ -137,9 +137,9 @@ export const HomePage = () => {
                             </span>
                         </h2>
                     </div>
-                    <div className="flex flex-col justify-center text-center text-2xl font-bold">
+                    <div className="flex flex-col justify-center text-center text-lg md:text-2xl font-bold py-2">
                         <div data-aos="fade-up">
-                            <p className="max-w-[60%] mx-auto p-3">
+                            <p className="md:max-w-[60%] mx-auto p-3">
                                 “Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan pasangan-pasangan untukmu dari jenismu sendiri, agar kamu cenderung dan merasa tenteram kepadanya, dan Dia menjadikan di antaramu rasa kasih dan sayang.”
                             </p>
                             <h2 className="py-3">
